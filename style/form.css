@@ -1,0 +1,97 @@
+@charset "UTF_8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../images/form-bg.jpg);
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #555;
+    text-align: left;
+}
+
+input, select, textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #f9f9f9;
+}
+
+input:focus, select:focus, textarea:focus {
+    outline: none;
+    border: 1px solid #a29bfe;
+}
+
+textarea {
+    resize: none;
+}
+
+.payment-method {
+    display: flex;
+    justify-content: space-around;
+}
+
+.payment-method label {
+    font-size: 14px;
+    font-weight: normal;
+    color: #555;
+}
+
+.submit-btn {
+    background-color: #6c5ce7;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #4834d4;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 500px) {
+    .form-container {
+        width: 90%;
+    }
+}

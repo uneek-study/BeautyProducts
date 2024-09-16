@@ -1,0 +1,528 @@
+body{
+	background-image: url(../images/bg.jpg);
+	background-size: 100% 800px;
+	margin:0;
+	padding: 0;
+	background-attachment: fixed;
+}
+
+nav{
+	width:100%;
+	height: 260px;
+	background-color: rgba(0, 0, 0, 0.8);
+	float:left;
+	box-sizing:border-box;
+	padding: 30px;
+}
+
+#welcome{
+	font-size: 80px;
+	color:white;
+	margin:0;
+	padding: 0;
+	text-align: center;
+}
+
+/* Start nav Coding */
+#menu{
+	margin-top: 10px;
+	width: 750px;
+	height: 70px;
+	box-sizing: border-box;
+}
+
+.nav-item{
+	width: 20%;
+	height: 70px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: white;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: sans-serif;
+}
+/* End nav Coding */
+
+/* Start section Coding */
+
+#home-section{
+	width: 700px;
+	height: 468px;
+	box-sizing: border-box;
+	float: right;
+	background-image: url(../images/section-bg.png);
+}
+
+#logo{
+	width: 180px;
+	height: 180px;
+	box-sizing: border-box;
+	border-width: 5px;
+	border-style: solid;
+	border-color: white;
+	margin-left: 320px;
+	margin-top: 110px;
+}
+
+#logo-text{
+	margin: 0;
+	padding: 0;
+	font-family: verdana;
+	font-size: 160px;
+	margin-top: -20px;
+	color: white;
+	margin-left: 20px;
+}
+
+#domain{
+	margin: 0;
+	padding: 0;
+	color: white;
+	font-family: verdana;
+	font-size: 40px;
+	text-align: center;
+	margin-left: 135px;
+}
+/* End section Coding */
+
+/* Start Login Page nav Coding */
+
+#domain-name{
+	margin:0;
+	padding:0;
+	color: white;
+	font-size: 60px;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+/* End Login Page nav Coding */
+
+
+/* Start Login Page section Coding */
+
+fieldset{
+	width: 350px;
+	height: 250px;
+	color: white;
+	border-width: 3px;
+	border-block: solid;
+	border-color: white;
+	margin-left: 180px;
+	padding: 25px;
+}
+
+#login-section{
+	width: 700px;
+	height: 468px;
+	box-sizing: border-box;
+	float: right;
+	background-image: url(../images/section-bg.png);
+	padding: 85px;
+}
+
+legend{
+	font-size: 30px;
+	font-family: franklin gothic;
+	letter-spacing: 1px;
+	color: white;
+}
+
+#login-form{
+	font-family: sans-serif;
+	letter-spacing: 1px;
+	font-size: 22px;
+}
+
+#username{
+	width: 100%;
+	height: 30px;
+	background-color: inherit;
+	border:none;
+	border-width: 2px;
+	border-style: solid;
+	border-color: white;
+	margin-top: 10px;
+	color: white;
+	font-size: 17px;
+	margin-bottom: 20px;
+}
+
+#password{
+	width: 100%;
+	height: 30px;
+	background-color: inherit;
+	border:none;
+	border-width: 2px;
+	border-style: solid;
+	border-color: white;
+	margin-top: 10px;
+	color: white;
+	font-size: 17px;
+}
+
+#submit-btn{
+	width: 130px;
+	height: 35px;
+	float: right;
+	margin-top: 25px;
+	background-color: inherit;
+	border: none;
+	border-width: 2px;
+	border-style: solid;
+	border-color: white;
+	color: white;
+	font-size: 18px;
+	font-family: franklin gothic;
+	letter-spacing: 1px;
+}
+/* End Login Page section Coding */
+
+
+/* Start Sign Up page coding */
+
+
+#signup-section{
+	width: 700px;
+	height: 468px;
+	box-sizing: border-box;
+	float: right;
+	background-image: url(../images/section-bg.png);
+}
+
+#signup-f{
+	width: 350px;
+	height: 400px;
+	color: white;
+	border-width: 3px;
+	border-block: solid;
+	border-color: white;
+	margin-left: 240px;
+	padding: 20px;
+}
+
+#signup-input{
+	width: 100%;
+	height: 25px;
+	background-color: inherit;
+	border:none;
+	border-width: 2px;
+	border-style: solid;
+	border-color: white;
+	margin-top: 5px;
+	color: white;
+	font-size: 15px;
+	margin-bottom: 15px;
+}
+
+/* End Sign Up page coding */
+
+
+/* Start Contact Page coding */
+
+#contact-section{
+	width: 700px;
+	height: 468px;
+	box-sizing: border-box;
+	float: right;
+	background-image: url(../images/section-bg.png);
+}
+
+#contact-f{
+	width: 350px;
+	height: 250px;
+	color: white;
+	border-width: 3px;
+	border-block: solid;
+	border-color: white;
+	margin-top: 75px;
+	margin-left: 230px;
+	padding: 25px;
+	padding-top: 10px;
+}
+
+#contact{
+	font-size: 15px;
+	font-style: normal;
+	font-family: franklin gothic;
+	letter-spacing: 1px;
+	line-height: 38px;
+}
+/* Start Contact Page coding */
+
+
+/* Start Products page coding */
+
+#products-section{
+	width: 100%;
+	height: 2940px;
+	box-sizing: border-box;
+	float: left;
+}
+
+#brands{
+	width: 100%;
+	height: 400px;
+	background-color: rgba(255, 255, 255, 0.8);
+	float: left;
+	box-sizing: border-box;
+}
+
+#brands-heading{
+	text-align: center;
+	font-size: 40px;
+	font-family: franklin gothic;
+	letter-spacing: 1px;
+}
+
+#brand-pic{
+	width: 200px;
+	height: 80px;
+	float: left;
+	box-sizing: border-box;
+	border-width: 3px;
+	border-style: solid;
+	border-color: black;
+	margin: 50px;
+	margin-top: 10px;
+	background-color: white;
+}
+
+#search{
+	width: 60%;
+	height: 50px;
+	box-sizing: border-box;
+	float: left;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 20px;
+	border: none;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #ccc;
+	font-size: 18px;
+	padding: 10px;
+	background-image: url(../images/search.png);
+	background-size: 40px 40px;
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+#zest-products{
+	width: 100%;
+	height: 526px;
+	float: left;
+	box-sizing: border-box;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+#zest{
+	text-align: center;
+	color: white;
+	font-family: franklin gothic;
+	letter-spacing: 1px;
+	font-size: 35px;
+	margin-bottom: -30px;
+	margin-top: 70px;
+}
+
+#zest-products-pic{
+	width: 250px;
+	height: 320px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: white;
+	float: left;
+	box-sizing: border-box;
+	margin: 63px;
+}
+
+.pro-img{
+	width: 100%;
+	height: 245px;
+	background-color: white;
+}
+
+
+#dove-products{
+	width: 100%;
+	height: 500px;
+	float: left;
+	box-sizing: border-box;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+#dove{
+	text-align: center;
+	color: white;
+	font-family: franklin gothic;
+	letter-spacing: 1px;
+	font-size: 35px;
+	margin-bottom: -30px;
+	margin-top: 70px;
+}
+
+#dove-products-pic{
+	width: 250px;
+	height: 320px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: white;
+	float: left;
+	box-sizing: border-box;
+	margin: 63px;
+}
+
+
+#beauty-products{
+	width: 100%;
+	height: 500px;
+	float: left;
+	box-sizing: border-box;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+#beauty{
+	text-align: center;
+	color: white;
+	font-family: franklin gothic;
+	letter-spacing: 1px;
+	font-size: 35px;
+	margin-bottom: -30px;
+	margin-top: 70px;
+}
+
+#beauty-products-pic{
+	width: 250px;
+	height: 320px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: white;
+	float: left;
+	box-sizing: border-box;
+	margin: 63px;
+}
+
+#persona-products{
+	width: 100%;
+	height: 500px;
+	float: left;
+	box-sizing: border-box;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+#persona{
+	text-align: center;
+	color: white;
+	font-family: franklin gothic;
+	letter-spacing: 1px;
+	font-size: 35px;
+	margin-bottom: -30px;
+	margin-top: 70px;
+}
+
+#persona-products-pic{
+	width: 250px;
+	height: 320px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: white;
+	float: left;
+	box-sizing: border-box;
+	margin: 63px;
+}
+
+
+#amica-products{
+	width: 100%;
+	height: 495px;
+	float: left;
+	box-sizing: border-box;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+#amica{
+	text-align: center;
+	color: white;
+	font-family: franklin gothic;
+	letter-spacing: 1px;
+	font-size: 35px;
+	margin-bottom: -30px;
+	margin-top: 70px;
+}
+
+#amica-products-pic{
+	width: 250px;
+	height: 320px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: white;
+	float: left;
+	box-sizing: border-box;
+	margin: 63px;
+}
+
+#products-name{
+	color: white;
+	text-align: center;
+	font-family: sans-serif;
+	padding: 0;
+	margin: 0;
+	margin-top: 5px;
+	font-size: 18px;
+}
+
+#products-price{
+	color: white;
+	padding: 0;
+	margin: 0;
+	margin: 8px;
+	margin-top: 12px;
+	font-family: sans-serif;
+	float: left;
+}
+
+#btn{
+	color: white;
+	padding: 0;
+	margin: 0;
+	margin: 8px;
+	font-family: sans-serif;
+	float: right;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #ccc;
+	padding: 2px;
+	background-color: dodgerblue;
+}
+
+#btn:hover{
+	background-color: green;
+	cursor: pointer;
+}
+
+footer{
+	width: 100%;
+	height: 70px;
+	box-sizing: border-box;
+	background-color: rgba(255, 255, 255, 0.8);
+	float: left;
+	margin-top: -20px;
+}
+
+#uneek{
+	color: black;
+}
+
+#developed{
+	text-align: center;
+	font-family: sans-serif;
+}
+
+/* End Products page coding */
