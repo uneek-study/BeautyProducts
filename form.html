@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purchase Product</title>
+    <link rel="stylesheet" href="style/form.css">
+</head>
+<body>
+    <div class="form-container">
+        <h1>Purchase Your Product</h1>
+        <form action="#" method="POST">
+            <!-- Product Selection -->
+            <label for="product">Select Product</label>
+            <select name="product" id="product">
+                <option value="Zest-Soap"> Zest Soap </option>
+                <option value="Zest-Bio-Fertilizer"> Zest Bio-Fertilizer </option>
+                <option value="Zest-Deodrant"> Zest Deodrant </option>
+                <option value="Zest-Powder"> Zest Powder </option>
+                <option value="Dove-Deep-Wash"> Dove Deep Wash </option>
+                <option value="Dove-Beauty-Cream"> Dove Beauty Cream </option>
+                <option value="Dove-Daily-Shine"> Dove Daily Shine </option>
+                <option value="Dove-Pink-Rosa"> Dove Pink Rosa </option>
+                <option value="Beauty-Blue-Berry"> Beauty Blue Berry </option>
+                <option value="Beauty-Pink-Rosa"> Beauty Pink Rosa </option>
+                <option value="Beauty-White-Rosa"> Baeuty White Rosa </option>
+                <option value="Beauty-Blue-Berry-Lite"> Baeuty Blue Berry (Lite) </option>
+            </select>
+
+            <!-- Quantity -->
+            <label for="quantity">Quantity</label>
+            <input type="number" id="quantity" name="quantity" min="1" value="1" required>
+
+            <!-- Customer Name -->
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+            <!-- Email -->
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <!-- Address -->
+            <label for="address">Shipping Address</label>
+            <textarea id="address" name="address" rows="3" placeholder="Enter your shipping address" required></textarea>
+
+            <!-- Payment Method -->
+            <label for="payment-method">Payment Method</label>
+            <div class="payment-method">
+                <label><input type="radio" name="payment" value="credit-card" checked> Credit Card</label>
+                <label><input type="radio" name="payment" value="paypal"> PayPal</label>
+                <label><input type="radio" name="payment" value="net-banking"> Net Banking</label>
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit" class="submit-btn">Purchase Now</button>
+        </form>
+    </div>
+</body>
+</html>
